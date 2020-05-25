@@ -7,7 +7,7 @@
     <ProjectGuid>{08F6FCA4-42A0-4C96-852C-B30A6B097010}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_146_LRU_Cache</RootNamespace>
-    <AssemblyName>_146_LRU_Cache</AssemblyName>
+    <AssemblyName>146_LRU_Cache</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

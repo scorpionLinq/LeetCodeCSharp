@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F212447-B263-424D-B2D4-EB7C09FBA7D5}</ProjectGuid>
+    <ProjectGuid>{8D5B0B1B-69BE-4C03-8E78-145FAF0B14C1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_101_Tree</RootNamespace>
-    <AssemblyName>101_Tree</AssemblyName>
+    <RootNamespace>_104_Tree_Deep</RootNamespace>
+    <AssemblyName>104_Tree_Deep</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

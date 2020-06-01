@@ -1,0 +1,7 @@
+F:\LeetCode\LeetCodeCSharp\1431_Child\bin\Debug\1431_Child.exe.config
+F:\LeetCode\LeetCodeCSharp\1431_Child\bin\Debug\1431_Child.exe
+F:\LeetCode\LeetCodeCSharp\1431_Child\bin\Debug\1431_Child.pdb
+F:\LeetCode\LeetCodeCSharp\1431_Child\obj\Debug\1431_Child.csprojAssemblyReference.cache
+F:\LeetCode\LeetCodeCSharp\1431_Child\obj\Debug\1431_Child.csproj.CoreCompileInputs.cache
+F:\LeetCode\LeetCodeCSharp\1431_Child\obj\Debug\1431_Child.exe
+F:\LeetCode\LeetCodeCSharp\1431_Child\obj\Debug\1431_Child.pdb

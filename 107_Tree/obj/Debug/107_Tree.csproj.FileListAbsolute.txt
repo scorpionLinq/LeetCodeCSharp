@@ -1,0 +1,7 @@
+F:\LeetCode\LeetCodeCSharp\107_Tree\bin\Debug\107_Tree.exe.config
+F:\LeetCode\LeetCodeCSharp\107_Tree\bin\Debug\107_Tree.exe
+F:\LeetCode\LeetCodeCSharp\107_Tree\bin\Debug\107_Tree.pdb
+F:\LeetCode\LeetCodeCSharp\107_Tree\obj\Debug\107_Tree.csprojAssemblyReference.cache
+F:\LeetCode\LeetCodeCSharp\107_Tree\obj\Debug\107_Tree.csproj.CoreCompileInputs.cache
+F:\LeetCode\LeetCodeCSharp\107_Tree\obj\Debug\107_Tree.exe
+F:\LeetCode\LeetCodeCSharp\107_Tree\obj\Debug\107_Tree.pdb

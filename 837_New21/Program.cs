@@ -9,6 +9,7 @@ namespace _837_New21
 {
     class Solution
     {
+        //方法1
         public double New21Game(int N, int K, int W)
         {
             double[] dp = new double[K + W];
@@ -27,9 +28,9 @@ namespace _837_New21
             double S = Math.Min(N-(K-1),W);
             for(int i = K - 1; i >= 0; --i)
             {
-                int nKey = i - 1;
                 dp[i] = S / (double)W;
                 S += dp[i] - dp[i+W];//往前移动一位，要减去末尾数的概率
+                Console.WriteLine("i: " + i + " : " + dp[i] + " S:" + S);
             }
             return dp[0];
         }

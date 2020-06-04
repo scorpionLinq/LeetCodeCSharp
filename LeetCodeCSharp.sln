@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "107_Tree", "107_Tree\107_Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "837_New21", "837_New21\837_New21.csproj", "{5DF9890E-D679-4A47-B885-A27E8C9D67CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238_Multiply", "238_Multiply\238_Multiply.csproj", "{4ABEF09D-2581-4895-A775-EAC3AE8FA0A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{5DF9890E-D679-4A47-B885-A27E8C9D67CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DF9890E-D679-4A47-B885-A27E8C9D67CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DF9890E-D679-4A47-B885-A27E8C9D67CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABEF09D-2581-4895-A775-EAC3AE8FA0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABEF09D-2581-4895-A775-EAC3AE8FA0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABEF09D-2581-4895-A775-EAC3AE8FA0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABEF09D-2581-4895-A775-EAC3AE8FA0A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

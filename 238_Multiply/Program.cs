@@ -8,6 +8,7 @@ namespace _238_Multiply
 {
     public class Solution
     {
+        //方法1：两个数组
         public int[] ProductExceptSelf(int[] nums)
         {
             int nLen = nums.Length;
@@ -46,6 +47,28 @@ namespace _238_Multiply
             }
             return val;
         }
+
+        //方法2：1个数组
+        public int[] ProductExceptSelf2(int[] nums)
+        {
+            int nLen = nums.Length;
+            int nSum = 1;
+            int[] resoult = new int[nLen];
+            resoult[0] = nums[0];
+            for (int i = 0; i < nLen; ++i)
+            {
+                resoult[i] = nSum;
+                nSum *= nums[i];
+
+            }
+            nSum = 1;
+            for (int i = nLen -2; i >= 0; --i)
+            {
+                nSum *= nums[i + 1];
+                resoult[i] *= nSum;
+            }
+            return resoult;
+        }
     }
 
     class Program
@@ -54,7 +77,7 @@ namespace _238_Multiply
         {
             int[] test = { 1, 2, 3, 4 };
             Solution so = new Solution();
-            int[] resoult = so.ProductExceptSelf(test);
+            int[] resoult = so.ProductExceptSelf2(test);
             foreach (int x in resoult)
             {
                 Console.WriteLine(x);

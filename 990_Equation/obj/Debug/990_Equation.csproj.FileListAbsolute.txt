@@ -1,0 +1,7 @@
+F:\LeetCode\LeetCodeCSharp\990_Equation\bin\Debug\990_Equation.exe.config
+F:\LeetCode\LeetCodeCSharp\990_Equation\bin\Debug\990_Equation.exe
+F:\LeetCode\LeetCodeCSharp\990_Equation\bin\Debug\990_Equation.pdb
+F:\LeetCode\LeetCodeCSharp\990_Equation\obj\Debug\990_Equation.csprojAssemblyReference.cache
+F:\LeetCode\LeetCodeCSharp\990_Equation\obj\Debug\990_Equation.csproj.CoreCompileInputs.cache
+F:\LeetCode\LeetCodeCSharp\990_Equation\obj\Debug\990_Equation.exe
+F:\LeetCode\LeetCodeCSharp\990_Equation\obj\Debug\990_Equation.pdb

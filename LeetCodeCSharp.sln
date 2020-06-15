@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview_46", "Interview_4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_PalindromeNumber", "9_PalindromeNumber\9_PalindromeNumber.csproj", "{D2F584A7-D75F-4D62-BC8A-92A067BC4336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Longest_Common_Prefix", "14_Longest_Common_Prefix\14_Longest_Common_Prefix.csproj", "{72556426-7EBA-4522-B373-FD409D6B5586}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{D2F584A7-D75F-4D62-BC8A-92A067BC4336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2F584A7-D75F-4D62-BC8A-92A067BC4336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2F584A7-D75F-4D62-BC8A-92A067BC4336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72556426-7EBA-4522-B373-FD409D6B5586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72556426-7EBA-4522-B373-FD409D6B5586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72556426-7EBA-4522-B373-FD409D6B5586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72556426-7EBA-4522-B373-FD409D6B5586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

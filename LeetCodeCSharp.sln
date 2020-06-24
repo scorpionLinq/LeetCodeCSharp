@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Longest_Common_Prefix", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "297_Tree", "297_Tree\297_Tree.csproj", "{8389D6CA-4123-4578-8A00-2993ABA14571}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_3Sum_Closest", "16_3Sum_Closest\16_3Sum_Closest.csproj", "{C17B66CA-03B0-49B8-B1E4-5C3AC2F9BBE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{8389D6CA-4123-4578-8A00-2993ABA14571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8389D6CA-4123-4578-8A00-2993ABA14571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8389D6CA-4123-4578-8A00-2993ABA14571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17B66CA-03B0-49B8-B1E4-5C3AC2F9BBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17B66CA-03B0-49B8-B1E4-5C3AC2F9BBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17B66CA-03B0-49B8-B1E4-5C3AC2F9BBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17B66CA-03B0-49B8-B1E4-5C3AC2F9BBE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

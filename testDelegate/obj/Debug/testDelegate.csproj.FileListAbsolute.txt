@@ -1,0 +1,7 @@
+D:\self\test\LeetCodeCSharp\testDelegate\bin\Debug\testDelegate.exe.config
+D:\self\test\LeetCodeCSharp\testDelegate\bin\Debug\testDelegate.exe
+D:\self\test\LeetCodeCSharp\testDelegate\bin\Debug\testDelegate.pdb
+D:\self\test\LeetCodeCSharp\testDelegate\obj\Debug\testDelegate.csprojAssemblyReference.cache
+D:\self\test\LeetCodeCSharp\testDelegate\obj\Debug\testDelegate.csproj.CoreCompileInputs.cache
+D:\self\test\LeetCodeCSharp\testDelegate\obj\Debug\testDelegate.exe
+D:\self\test\LeetCodeCSharp\testDelegate\obj\Debug\testDelegate.pdb

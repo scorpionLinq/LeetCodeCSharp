@@ -1,0 +1,7 @@
+D:\self\test\LeetCodeCSharp\testEvent\obj\Debug\testEvent.csprojAssemblyReference.cache
+D:\self\test\LeetCodeCSharp\testEvent\obj\Debug\testEvent.csproj.CoreCompileInputs.cache
+D:\self\test\LeetCodeCSharp\testEvent\bin\Debug\testEvent.exe.config
+D:\self\test\LeetCodeCSharp\testEvent\bin\Debug\testEvent.exe
+D:\self\test\LeetCodeCSharp\testEvent\bin\Debug\testEvent.pdb
+D:\self\test\LeetCodeCSharp\testEvent\obj\Debug\testEvent.exe
+D:\self\test\LeetCodeCSharp\testEvent\obj\Debug\testEvent.pdb

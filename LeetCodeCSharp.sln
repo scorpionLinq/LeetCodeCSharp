@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEvent", "testEvent\test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testOverride", "testOverride\testOverride.csproj", "{46EEB120-C957-479B-84CB-7AABCEE0A62D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testAsync", "testAsyn\testAsync.csproj", "{6FFAADDE-F053-4E80-B07C-9C6EF0C76DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{46EEB120-C957-479B-84CB-7AABCEE0A62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46EEB120-C957-479B-84CB-7AABCEE0A62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46EEB120-C957-479B-84CB-7AABCEE0A62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFAADDE-F053-4E80-B07C-9C6EF0C76DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFAADDE-F053-4E80-B07C-9C6EF0C76DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFAADDE-F053-4E80-B07C-9C6EF0C76DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFAADDE-F053-4E80-B07C-9C6EF0C76DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

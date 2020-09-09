@@ -65,6 +65,44 @@ namespace testAsync
         }
     }
 
+    //测试await
+    class  TestAwait
+    {
+        public int Get10()
+        {
+            return 10;
+        }
+
+        public async Task DoWorkAsync()
+        {
+            Func<int> ten = new Func<int>(Get10);
+            int a = await Task.Run(ten);
+            int b = await Task.Run(new Func<int>(Get10));
+            int c = await Task.Run(() => { return 10; });
+
+            Console.WriteLine($"{a} {b} {c}");
+
+            await Task.Run(() => Console.WriteLine(5.ToString()));
+
+            Console.WriteLine((await Task.Run(() => 6)).ToString());
+
+            await Task.Run(() => Task.Run(() => Console.WriteLine(7.ToString())));
+
+            int value = await Task.Run(() => Task.Run(() => 8));
+            Console.WriteLine(value.ToString());
+
+        }
+    }
+
+    class CancelAsync
+    {
+        public async Task RunAsynv(CancellationToken  ct)
+        {
+            if(ct.IsCancellationRequested)
+            return 
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -79,6 +117,10 @@ namespace testAsync
             //Thread.Sleep(1000);
             //Console.WriteLine("Exiting ");
 
+            //测试await
+            //TestAwait my = new TestAwait();
+            //Task t = my.DoWorkAsync();
+            //t.Wait();
 
             Console.ReadKey();
         }

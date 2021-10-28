@@ -96,10 +96,24 @@ namespace testAsync
 
     class CancelAsync
     {
-        public async Task RunAsynv(CancellationToken  ct)
+        public async Task RunAsync(CancellationToken  ct)
         {
-            if(ct.IsCancellationRequested)
-            return 
+            if (ct.IsCancellationRequested)
+                return;
+            await Task.Run(() => CycleMethod(ct), ct);
+        }
+
+        void CycleMethod(CancellationToken ct)
+        {
+            Console.WriteLine("Starting CycleMethod ");
+            const int max = 5;
+            for (int i = 0; i < max; i++)
+            {
+                if (ct.IsCancellationRequested)
+                    return;
+                Thread.Sleep(1000);
+                Console.WriteLine($"           {i+1} of {max} iteration completed");
+            }
         }
     }
 
@@ -121,6 +135,19 @@ namespace testAsync
             //TestAwait my = new TestAwait();
             //Task t = my.DoWorkAsync();
             //t.Wait();
+
+            //测试
+            CancellationTokenSource cts = new CancellationTokenSource();
+            CancellationToken token = cts.Token;
+
+            CancelAsync mc = new CancelAsync();
+            Task t = mc.RunAsync(token);
+
+            //Thread.Sleep(3000);
+            //cts.Cancel();
+
+            t.Wait();
+            Console.WriteLine($"Was Cancelled:{token.IsCancellationRequested}");
 
             Console.ReadKey();
         }

@@ -4,3 +4,4 @@ D:\self\test\LeetCodeCSharp\testAsyn\bin\Debug\testAsyn.pdb
 D:\self\test\LeetCodeCSharp\testAsyn\obj\Debug\testAsync.csproj.CoreCompileInputs.cache
 D:\self\test\LeetCodeCSharp\testAsyn\obj\Debug\testAsyn.exe
 D:\self\test\LeetCodeCSharp\testAsyn\obj\Debug\testAsyn.pdb
+D:\self\test\LeetCodeCSharp\testAsyn\obj\Debug\testAsync.csprojAssemblyReference.cache
